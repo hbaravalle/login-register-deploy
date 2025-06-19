@@ -44,7 +44,7 @@ export default function Login() {
   return (
     <div className='container' id='loginContainer'>
       <div className='form-section'>
-        <h1 className='form-title'>Iniciar Sesión</h1>
+        <h1 className='form-title'>Login</h1>
 
         <div id='loginAlert' className='alert alert-error hidden'></div>
 
