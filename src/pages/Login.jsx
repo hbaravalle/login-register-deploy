@@ -11,8 +11,6 @@ export default function Login() {
   });
   const dispatch = useDispatch();
 
-  console.log(dispatch);
-
   const token = useSelector((state) => state.token);
   const navigate = useNavigate();
 
